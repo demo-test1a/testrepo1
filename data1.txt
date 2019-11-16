@@ -1,0 +1,5 @@
+rpm -qa |grep httpd
+yum install -y httpd
+systemctl status httpd.service
+systemctl start httpd.service
+systemctl enable httpd.service
